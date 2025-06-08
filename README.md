@@ -2,7 +2,8 @@
 
 A Python-based security testing tool for extracting and analyzing saved Firefox browser credentials from systems. This utility leverages the [`firefox_decrypt.py`](https://github.com/unode/firefox_decrypt) library to demonstrate password storage vulnerabilities in Firefox profiles.
 
-> [!WARNING] This tool is designed **exclusively for authorized security testing, educational purposes, and legitimate system administration**. Only use this tool on systems you own or have explicit written permission to test. Unauthorized access to credentials is illegal and may result in severe legal consequences.
+> [!WARNING] 
+> This tool is designed **exclusively for authorized security testing, educational purposes, and legitimate system administration**. Only use this tool on systems you own or have explicit written permission to test. Unauthorized access to credentials is illegal and may result in severe legal consequences.
 
 ----------
 
@@ -13,13 +14,15 @@ A Python-based security testing tool for extracting and analyzing saved Firefox 
 -   **Comprehensive Extraction**: Retrieves all stored login credentials from Firefox password manager
 -   **Secure Reporting**: Optional encrypted email delivery of audit results via SMTP
 
-> [!IMPORTANT] When using Gmail SMTP, you must either enable "App Passwords" (recommended) or configure application-specific authentication. Standard Gmail passwords will not work due to security restrictions.
+> [!IMPORTANT] 
+> When using Gmail SMTP, you must either enable "App Passwords" (recommended) or configure application-specific authentication. Standard Gmail passwords will not work due to security restrictions.
 
 ----------
 
 ## Prerequisites
 
-> [!NOTE] Ensure you have the following installed before running the tool:
+> [!NOTE] 
+> Ensure you have the following installed before running the tool:
 
 -   **Python 3.7+** (Python 3.8+ recommended for optimal compatibility)
 -   **requests** library for HTTP operations
@@ -31,7 +34,8 @@ A Python-based security testing tool for extracting and analyzing saved Firefox 
 pip install requests
 ```
 
-> [!TIP] For production environments, consider using a virtual environment:
+> [!TIP] 
+> For production environments, consider using a virtual environment:
 
 ```bash
 python -m venv firefox-auditor-env
@@ -80,7 +84,8 @@ python malware.py
 
 ## Security Considerations
 
-> [!IMPORTANT] **Legal Compliance**: This tool should only be used in compliance with:
+> [!IMPORTANT] 
+> **Legal Compliance**: This tool should only be used in compliance with:
 > 
 > -   Local and international cybersecurity laws
 > -   Organizational security policies
@@ -110,7 +115,8 @@ python malware.py
 -   Verify Python version compatibility
 -   Check virtual environment activation
 
-> [!NOTE] For additional support, please refer to the [firefox_decrypt documentation](https://github.com/unode/firefox_decrypt) for Firefox-specific issues.
+> [!NOTE] 
+> For additional support, please refer to the [firefox_decrypt documentation](https://github.com/unode/firefox_decrypt) for Firefox-specific issues.
 
 ----------
 
